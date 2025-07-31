@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz App</title>
+    <link rel="stylesheet" href="quiz.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Quiz App</h1>
+        
+        <div class="user-section">
+            <label for="username">Enter Your Name:</label>
+            <input type="text" id="username" value="Sony">
+        </div>
+        
+        <div class="quiz-section">
+            <div id="questions-container"></div>
+            <button id="submit-btn">Submit Quiz</button>
+        </div>
+        
+        <div class="result-section">
+            <div class="score">Your Score: <span id="score-value">0</span>/10</div>
+            <div class="feedback" id="feedback"></div>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+<script src="quiz.js"></script>
+    
+</body>
+</html>
